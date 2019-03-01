@@ -1,14 +1,11 @@
 Name:     FAudio
-Version:  19.02
+Version:  19.03
 Release:  1%{?dist}
 Summary:  FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 Refresh libraries
 
 License:  zlib
 URL:      https://fna-xna.github.io/
 Source0:  https://github.com/FNA-XNA/%{name}/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
-
-# https://github.com/FNA-XNA/FAudio/issues/115
-Patch0:   FAudio-soname.patch
 
 BuildRequires: cmake
 BuildRequires: gcc
@@ -75,6 +72,9 @@ Development files for the FAudio library.
 
 
 %changelog
+* Fri Mar 01 2019 Michael Cronenworth <mike@cchtml.com> - 19.03-1
+- Update to 19.03
+
 * Thu Feb 28 2019 Michael Cronenworth <mike@cchtml.com> - 19.02-1
 - Initial spec file.
 
