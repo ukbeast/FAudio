@@ -72,7 +72,7 @@ Development files for the FAudio library.
 
 
 %changelog
-* Mon Jan 06 2019 Michael Cronenworth <mike@cchtml.com> - 20.01-1
+* Mon Jan 06 2020 Michael Cronenworth <mike@cchtml.com> - 20.01-1
 - Update to 20.01
 
 * Mon Dec 02 2019 Michael Cronenworth <mike@cchtml.com> - 19.12-1
