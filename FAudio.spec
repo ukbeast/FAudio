@@ -45,11 +45,11 @@ Development files for the FAudio library.
 
 %build
 %cmake .
-%make_build
+%cmake_build
 
 
 %install
-%make_install
+%cmake_install
 
 
 %files -n libFAudio
