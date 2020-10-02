@@ -1,5 +1,5 @@
 Name:     FAudio
-Version:  20.09
+Version:  20.10
 Release:  1%{?dist}
 Summary:  FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 Refresh libraries
 
@@ -75,6 +75,9 @@ Development files for the FAudio library.
 
 
 %changelog
+* Fri Oct 02 2020 Michael Cronenworth <mike@cchtml.com> - 20.10-1
+- Update to 20.10
+
 * Wed Sep 02 2020 Michael Cronenworth <mike@cchtml.com> - 20.09-1
 - Update to 20.09
 
