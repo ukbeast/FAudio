@@ -10,6 +10,7 @@ Source0:  https://github.com/FNA-XNA/%{name}/archive/%{version}.tar.gz#/%{name}-
 BuildRequires: cmake
 BuildRequires: gcc
 BuildRequires: gcc-c++
+BuildRequires: make
 
 BuildRequires: SDL2-devel
 BuildRequires: gstreamer1-devel
