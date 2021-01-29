@@ -80,6 +80,9 @@ Development files for the FAudio library.
 * Fri Jan 29 2021 Michael Cronenworth <mike@cchtml.com> - 21.01-1
 - Update to 21.01
 
+* Mon Jan 25 2021 Fedora Release Engineering <releng@fedoraproject.org> - 20.12-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_34_Mass_Rebuild
+
 * Tue Dec 01 2020 Michael Cronenworth <mike@cchtml.com> - 20.12-1
 - Update to 20.12
 
