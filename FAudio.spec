@@ -1,6 +1,6 @@
 Name:     FAudio
 Version:  21.06
-Release:  1%{?dist}
+Release:  2%{?dist}
 Summary:  FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 Refresh libraries
 
 License:  zlib
@@ -77,6 +77,9 @@ Development files for the FAudio library.
 
 
 %changelog
+* Wed Jul 21 2021 Fedora Release Engineering <releng@fedoraproject.org> - 21.06-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_35_Mass_Rebuild
+
 * Thu Jun 03 2021 Michael Cronenworth <mike@cchtml.com> - 21.06-1
 - Update to 21.06
 
