@@ -1,11 +1,13 @@
 Name:     FAudio
-Version:  21.09
+Version:  21.11
 Release:  1%{?dist}
 Summary:  FNA is a reimplementation of the Microsoft XNA Game Studio 4.0 Refresh libraries
 
 License:  zlib
 URL:      https://fna-xna.github.io/
 Source0:  https://github.com/FNA-XNA/%{name}/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
+# https://github.com/FNA-XNA/FAudio/commit/de0c1f833c12a992af5c7daebe1705cd2c72f743
+Patch0:   FAudio-21.11-assert.patch
 
 BuildRequires: cmake
 BuildRequires: gcc
@@ -43,10 +45,11 @@ Development files for the FAudio library.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
+# GStreamer support is deprecated and will be removed in the next release
 %cmake \
  -DGSTREAMER=ON
 %cmake_build
@@ -77,6 +80,9 @@ Development files for the FAudio library.
 
 
 %changelog
+* Wed Nov 10 2021 Michael Cronenworth <mike@cchtml.com> - 21.11-1
+- Update to 21.11
+
 * Tue Sep 07 2021 Michael Cronenworth <mike@cchtml.com> - 21.09-1
 - Update to 21.09
 
